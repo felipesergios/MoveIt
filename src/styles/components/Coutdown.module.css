@@ -1,0 +1,70 @@
+.containerCountdown{
+    display: flex;
+    align-items: center;
+    font-family: Rajdhani,sans-serif;
+    font-weight: 600;
+    color:var(--clock);
+}
+
+.containerCountdown > div{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background: var(--background);
+box-shadow: 0 0 60px rgba(0,0,0,0.05);
+font-size: 8.5rem;
+text-align: center;
+}
+
+
+.containerCountdown > div span{
+    flex:1;
+}
+
+.containerCountdown > div span:first-child{
+    border-right: 1px solid #00000000;
+}
+
+.containerCountdown > div span:last-child{
+    border-left: 1px solid #00000000;
+}
+.containerCountdown > span{
+    font-size: 6.25rem;
+    margin: 0 0.5rem;
+}
+
+.startButton{
+    width: 100%;
+    height: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:0;
+    border-radius: 5px;
+
+    background: var(--blue);
+    color:var(--white);
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.startButton:hover{
+    background: var(--blue-dark);
+}
+
+.startButtonActive{
+    background: var(--red);
+    color:var(--white)
+}
+.startButtonActive:hove{
+    background: var(--blue-dark);
+    color:var(--white);
+}
+
+.startButton:disabled{
+    cursor: not-allowed;
+    background: var(--white);
+    color: var(--clock);
+}
+

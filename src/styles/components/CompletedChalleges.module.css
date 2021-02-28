@@ -1,0 +1,15 @@
+.CompleteContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3.5rem 0;
+    border-bottom: 1px solid #d7d8da;
+    font-weight: 500;
+}
+
+.CompleteContainer span:first-child{
+    font-size: 1.25rem;
+}
+.CompleteContainer span:last-child{
+    font-size: 1.5rem;
+}
